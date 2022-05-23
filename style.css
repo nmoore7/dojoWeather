@@ -1,0 +1,100 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.header{
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+.header h1{
+    font-size: 50px;
+}
+.header button{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    outline: inherit;
+    font-size: 30px;
+}
+.cityTemp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px black;
+    padding: 0px 20px 0px 20px;
+    height: 100px;
+}
+.cityTemp h2{
+    font-size: 35px;
+}
+.cityTemp p{
+    font-size: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.today, .tomorrow, .friday, .saturday{
+    margin: 10px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+    width: 270px;
+
+}
+.boxes h3{
+    font-size: 30px;
+}
+.boxes img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.dailyTemp{
+    display: flex;
+    justify-content: space-around;
+    width: inherit;
+    font-size: 35px;
+}
+.dailyTemp .high{
+    color: red;
+}
+.dailyTemp .low{
+    color: deepskyblue;
+}
+.footer{
+    width: 1200px;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+    justify-content: space-around;
+    background-color: lightgrey;
+    border: solid 2px black;
+}
+.acceptButton{
+    height: 30px;
+    width: 80px;
+    background-color: deepskyblue;
+}
